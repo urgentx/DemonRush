@@ -12,10 +12,11 @@ import com.barco.framework.Sound;
 
 public class Assets {
 
-    public static Image menu, levelSelect, levelSelect2, levelSelect3,intro1, intro2, intro3, splash, background, character, character2, character3, character4, character5, fireball, alien, alien2, alien3;
+    public static Image levelSelect, levelSelect2, levelSelect3,intro1, intro2, intro3, splash, background, character, character2, character3, character4, character5, fireball, alien, alien2, alien3;
     public static Image crawler1, crawler2, crawler3, crawler4, crawler5, portal, boss, boss2, boss3, boss4;
     public static Image tile, tileMould, tileOcean, characterJumped, characterDown;
     public static Image button, rocket, fireball2;
+    public static Image menu, menu2, menu3, menu4, menu5, menu6, menu7, menu8, menu9, menu10;
     public static Sound click, jump, explode, blip;
     public static Music theme;
 

@@ -24,6 +24,15 @@ public class LoadingScreen extends Screen {
         //Load images:
         Graphics g = game.getGraphics();
         Assets.menu = g.newImage("menu.png", Graphics.ImageFormat.RGB565);
+        Assets.menu2 = g.newImage("menu2.png", Graphics.ImageFormat.RGB565);
+        Assets.menu3 = g.newImage("menu3.png", Graphics.ImageFormat.RGB565);
+        Assets.menu4 = g.newImage("menu4.png", Graphics.ImageFormat.RGB565);
+        Assets.menu5 = g.newImage("menu5.png", Graphics.ImageFormat.RGB565);
+        Assets.menu6 = g.newImage("menu6.png", Graphics.ImageFormat.RGB565);
+        Assets.menu7 = g.newImage("menu7.png", Graphics.ImageFormat.RGB565);
+        Assets.menu8 = g.newImage("menu8.png", Graphics.ImageFormat.RGB565);
+        Assets.menu9 = g.newImage("menu9.png", Graphics.ImageFormat.RGB565);
+        Assets.menu10 = g.newImage("menu10.png", Graphics.ImageFormat.RGB565);
         Assets.levelSelect = g.newImage("levelselect.png", Graphics.ImageFormat.RGB565);
         Assets.levelSelect2 = g.newImage("levelselect2.png", Graphics.ImageFormat.RGB565);
         Assets.levelSelect3 = g.newImage("levelselect3.png", Graphics.ImageFormat.RGB565);

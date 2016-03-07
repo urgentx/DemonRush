@@ -17,14 +17,39 @@ import java.util.List;
  */
 public class MainMenuScreen extends Screen {
 
+    private Animation anim;
+
     public MainMenuScreen(Game game) {
 
         super(game);
+        anim = new Animation();
+        anim.addFrame(Assets.menu, 30);
+        anim.addFrame(Assets.menu2, 30);
+        anim.addFrame(Assets.menu3, 30);
+        anim.addFrame(Assets.menu4, 30);
+        anim.addFrame(Assets.menu5, 30);
+        anim.addFrame(Assets.menu6, 30);
+        anim.addFrame(Assets.menu7, 30);
+        anim.addFrame(Assets.menu8, 30);
+        anim.addFrame(Assets.menu9, 30);
+        anim.addFrame(Assets.menu10, 30);
+        anim.addFrame(Assets.menu9, 30);
+        anim.addFrame(Assets.menu8, 30);
+        anim.addFrame(Assets.menu7, 30);
+        anim.addFrame(Assets.menu6, 30);
+        anim.addFrame(Assets.menu5, 30);
+        anim.addFrame(Assets.menu4, 30);
+        anim.addFrame(Assets.menu3, 30);
+        anim.addFrame(Assets.menu2, 30);
+
+
     }
 
 
     @Override
     public void update(float deltaTime) {
+
+        anim.update(10);
 
         List<TouchEvent> touchEvents = game.getInput().getTouchEvents();
 
@@ -57,7 +82,7 @@ public class MainMenuScreen extends Screen {
     @Override
     public void paint(float deltaTime) {
         Graphics g = game.getGraphics();
-        g.drawImage(Assets.menu, 0, 0);
+        g.drawImage(anim.getImage(), 0, 0);
 
     }
 
